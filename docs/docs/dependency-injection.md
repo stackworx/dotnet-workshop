@@ -1,5 +1,5 @@
 ---
-title: Service
+title: Dependency Injection
 ---
 
 ## Dependency Injection
