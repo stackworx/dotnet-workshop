@@ -42,11 +42,11 @@ class Clock : IClock
 
 public interface IClock
 {
-    DateTime now();
+    DateTime Now(bool utc);
 }
 ```
 
-You will have to mark the `now()` method as virtual
+You will have to mark the `Now()` method as virtual
 
 And finally change all references to `Clock` to `IClock` and update the service registration
 
