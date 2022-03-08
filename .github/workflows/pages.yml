@@ -8,14 +8,15 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v1
+        uses: actions/checkout@v3
 
       - name: Build
         run: |
           yarn install --frozen-lockfile
-          git config --global user.email "actions@github.com"
-          git config --global user.name "GitHub Pages Action"
+          # git config --global user.email "actions@github.com"
+          # git config --global user.name "GitHub Pages Action"
           yarn deploy
         working-directory: docs
-        env:
-          GIT_USER: ${{ secrets.GITHUB_TOKEN }}
+        # env:
+        #   GIT_USER: actions
+        #   GIT_PASSWORD: ${{ secrets.GITHUB_TOKEN }}
