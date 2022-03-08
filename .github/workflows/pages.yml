@@ -17,6 +17,7 @@ jobs:
           # git config --global user.name "GitHub Pages Action"
           yarn deploy
         working-directory: docs
-        # env:
+        env:
+          USE_SSH: true
         #   GIT_USER: actions
         #   GIT_PASSWORD: ${{ secrets.GITHUB_TOKEN }}
