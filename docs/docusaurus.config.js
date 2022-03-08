@@ -15,7 +15,7 @@ module.exports = {
       title: ".NET Workshop",
       logo: {
         alt: "Logo",
-        src: "img/logo.svg",
+        src: "img/dotnetcore.png",
       },
       items: [
         {
