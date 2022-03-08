@@ -2,7 +2,7 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches:
-      - master
+      - main
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
@@ -18,6 +18,4 @@ jobs:
           yarn deploy
         working-directory: docs
         env:
-          USE_SSH: true
-        #   GIT_USER: actions
-        #   GIT_PASSWORD: ${{ secrets.GITHUB_TOKEN }}
+          GIT_USER: ${{ secrets.ACCESS_TOKEN }}
