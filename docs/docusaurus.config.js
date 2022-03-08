@@ -16,7 +16,7 @@ module.exports = {
         alt: "Logo",
         src: "img/logo.svg",
       },
-      links: [
+      items: [
         {
           to: "docs/requirements",
           activeBasePath: "docs",

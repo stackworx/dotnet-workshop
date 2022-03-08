@@ -16,7 +16,7 @@ function useFeatures() {
     },
     {
       title: <>Entity Framework Core</>,
-      imageUrl: "img/efcore.webp",
+      imageUrl: "img/efcore.png",
       description: (
         <>Entity Framework Core is a modern object-database mapper for .NET.</>
       ),
