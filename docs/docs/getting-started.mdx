@@ -6,10 +6,20 @@ import useBaseUrl from "@docusaurus/useBaseUrl";
 
 Make sure you have completed the [requirements](requirements) first
 
-Open the Solution in the root of this project
+## dotnet Project Templates
 
-Click the play icon to start the project
+To list the installed templates we can run
 
-You should see something like this
+```bash
+dotnet new --list
+```
 
-<img src={useBaseUrl("img/getting-started/ready.png")} />;
+Create a new `webapi` project with the name Workshop
+
+```bash
+dotnet new webapi --name Workshop
+```
+
+Open this project in Rider
+
+## Introduction to Production Structure

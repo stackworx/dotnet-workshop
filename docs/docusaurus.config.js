@@ -6,6 +6,7 @@ module.exports = {
   favicon: "img/favicon.ico",
   organizationName: "stackworx",
   projectName: "dotnet-workshop",
+  trailingSlash: true,
   themeConfig: {
     prism: {
       additionalLanguages: ["csharp"],
