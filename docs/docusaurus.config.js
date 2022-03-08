@@ -1,12 +1,12 @@
 module.exports = {
   title: ".NET Workshop",
   tagline: "Introduction to the basics of .NET for Developers",
-  url: "https://stackworx.github.io/",
+  url: "https://stackworx.github.io",
   baseUrl: "/dotnet-workshop/",
   favicon: "img/favicon.ico",
   organizationName: "stackworx",
   projectName: "dotnet-workshop",
-  trailingSlash: true,
+  trailingSlash: false,
   themeConfig: {
     prism: {
       additionalLanguages: ["csharp"],
